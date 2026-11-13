@@ -1,0 +1,8 @@
+{
+  "package": "b2b_reorder_network",
+  "tests": "tests/reorder_sagas",
+  "entrypoint": "b2b_reorder_network.dispatch.cli",
+  "fixture_prefix": [],
+  "database_flag": "--database",
+  "analysis_fixture": "fixtures/promise_risk.json"
+}

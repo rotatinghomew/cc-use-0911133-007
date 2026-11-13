@@ -1,0 +1,6855 @@
+{
+  "schema_version": 1,
+  "seed": 53,
+  "observed_until": "2026-09-23",
+  "orders": [
+    {
+      "order_id": "order-000",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-01",
+          "known_at": "2026-07-01",
+          "promised_at": "2026-07-08",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-07-13",
+          "at": "2026-07-07",
+          "known_at": "2026-07-07"
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-07-07",
+          "known_at": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-001",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-01",
+          "known_at": "2026-07-01",
+          "promised_at": "2026-07-08",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-13",
+          "known_at": "2026-07-14"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-14",
+          "known_at": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "order_id": "order-002",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-01",
+          "known_at": "2026-07-01",
+          "promised_at": "2026-07-08",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-06",
+          "known_at": "2026-07-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-07",
+          "known_at": "2026-07-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-003",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-02",
+          "known_at": "2026-07-02",
+          "promised_at": "2026-07-09",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-004",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-02",
+          "known_at": "2026-07-02",
+          "promised_at": "2026-07-09",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-18",
+          "known_at": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-005",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-02",
+          "known_at": "2026-07-02",
+          "promised_at": "2026-07-09",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-05",
+          "known_at": "2026-07-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-06",
+          "known_at": "2026-07-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-006",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-03",
+          "known_at": "2026-07-03",
+          "promised_at": "2026-07-10",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-07-15",
+          "at": "2026-07-09",
+          "known_at": "2026-07-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-15",
+          "known_at": "2026-07-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-007",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-03",
+          "known_at": "2026-07-03",
+          "promised_at": "2026-07-10",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-008",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-03",
+          "known_at": "2026-07-03",
+          "promised_at": "2026-07-10",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-09",
+          "known_at": "2026-07-10"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-10",
+          "known_at": "2026-07-11"
+        }
+      ]
+    },
+    {
+      "order_id": "order-009",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-04",
+          "known_at": "2026-07-04",
+          "promised_at": "2026-07-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-11",
+          "known_at": "2026-07-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-12",
+          "known_at": "2026-07-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-010",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-04",
+          "known_at": "2026-07-04",
+          "promised_at": "2026-07-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-07",
+          "known_at": "2026-07-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-08",
+          "known_at": "2026-07-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-011",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-04",
+          "known_at": "2026-07-04",
+          "promised_at": "2026-07-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-08",
+          "known_at": "2026-07-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-09",
+          "known_at": "2026-07-10"
+        }
+      ]
+    },
+    {
+      "order_id": "order-012",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-05",
+          "known_at": "2026-07-05",
+          "promised_at": "2026-07-12",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-07-17",
+          "at": "2026-07-11",
+          "known_at": "2026-07-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-10",
+          "known_at": "2026-07-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-11",
+          "known_at": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "order_id": "order-013",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-05",
+          "known_at": "2026-07-05",
+          "promised_at": "2026-07-12",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-11",
+          "known_at": "2026-07-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-12",
+          "known_at": "2026-07-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-014",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-05",
+          "known_at": "2026-07-05",
+          "promised_at": "2026-07-12",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-12",
+          "known_at": "2026-07-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-13",
+          "known_at": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-015",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-06",
+          "known_at": "2026-07-06",
+          "promised_at": "2026-07-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-09",
+          "known_at": "2026-07-10"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-10",
+          "known_at": "2026-07-11"
+        }
+      ]
+    },
+    {
+      "order_id": "order-016",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-06",
+          "known_at": "2026-07-06",
+          "promised_at": "2026-07-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-10",
+          "known_at": "2026-07-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-11",
+          "known_at": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "order_id": "order-017",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-06",
+          "known_at": "2026-07-06",
+          "promised_at": "2026-07-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-11",
+          "known_at": "2026-07-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-12",
+          "known_at": "2026-07-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-018",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-07",
+          "known_at": "2026-07-07",
+          "promised_at": "2026-07-14",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-07-19",
+          "at": "2026-07-13",
+          "known_at": "2026-07-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-13",
+          "known_at": "2026-07-14"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-14",
+          "known_at": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "order_id": "order-019",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-07",
+          "known_at": "2026-07-07",
+          "promised_at": "2026-07-14",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-07-13",
+          "known_at": "2026-07-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-020",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-07",
+          "known_at": "2026-07-07",
+          "promised_at": "2026-07-14",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-10",
+          "known_at": "2026-07-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-11",
+          "known_at": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "order_id": "order-021",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-08",
+          "known_at": "2026-07-08",
+          "promised_at": "2026-07-15",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-12",
+          "known_at": "2026-07-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-13",
+          "known_at": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-022",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-08",
+          "known_at": "2026-07-08",
+          "promised_at": "2026-07-15",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-13",
+          "known_at": "2026-07-14"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-14",
+          "known_at": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "order_id": "order-023",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-08",
+          "known_at": "2026-07-08",
+          "promised_at": "2026-07-15",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-14",
+          "known_at": "2026-07-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-15",
+          "known_at": "2026-07-16"
+        }
+      ]
+    },
+    {
+      "order_id": "order-024",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-09",
+          "known_at": "2026-07-09",
+          "promised_at": "2026-07-16",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-07-21",
+          "at": "2026-07-15",
+          "known_at": "2026-07-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-025",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-09",
+          "known_at": "2026-07-09",
+          "promised_at": "2026-07-16",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-12",
+          "known_at": "2026-07-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-13",
+          "known_at": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-026",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-09",
+          "known_at": "2026-07-09",
+          "promised_at": "2026-07-16",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-13",
+          "known_at": "2026-07-14"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-14",
+          "known_at": "2026-07-15"
+        }
+      ]
+    },
+    {
+      "order_id": "order-027",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-10",
+          "known_at": "2026-07-10",
+          "promised_at": "2026-07-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-15",
+          "known_at": "2026-07-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-028",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-10",
+          "known_at": "2026-07-10",
+          "promised_at": "2026-07-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-029",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-10",
+          "known_at": "2026-07-10",
+          "promised_at": "2026-07-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-18",
+          "known_at": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-030",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-11",
+          "known_at": "2026-07-11",
+          "promised_at": "2026-07-18",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-07-23",
+          "at": "2026-07-17",
+          "known_at": "2026-07-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-14",
+          "known_at": "2026-07-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-15",
+          "known_at": "2026-07-16"
+        }
+      ]
+    },
+    {
+      "order_id": "order-031",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-11",
+          "known_at": "2026-07-11",
+          "promised_at": "2026-07-18",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-15",
+          "known_at": "2026-07-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-032",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-11",
+          "known_at": "2026-07-11",
+          "promised_at": "2026-07-18",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-033",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-12",
+          "known_at": "2026-07-12",
+          "promised_at": "2026-07-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-18",
+          "known_at": "2026-07-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-19",
+          "known_at": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-034",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-12",
+          "known_at": "2026-07-12",
+          "promised_at": "2026-07-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-19",
+          "known_at": "2026-07-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-20",
+          "known_at": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-035",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-12",
+          "known_at": "2026-07-12",
+          "promised_at": "2026-07-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-15",
+          "known_at": "2026-07-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-16",
+          "known_at": "2026-07-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-036",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-13",
+          "known_at": "2026-07-13",
+          "promised_at": "2026-07-20",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-07-25",
+          "at": "2026-07-19",
+          "known_at": "2026-07-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-18",
+          "known_at": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-037",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-13",
+          "known_at": "2026-07-13",
+          "promised_at": "2026-07-20",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-18",
+          "known_at": "2026-07-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-19",
+          "known_at": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-038",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-13",
+          "known_at": "2026-07-13",
+          "promised_at": "2026-07-20",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-07-19",
+          "known_at": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-039",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-14",
+          "known_at": "2026-07-14",
+          "promised_at": "2026-07-21",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-21",
+          "known_at": "2026-07-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-22",
+          "known_at": "2026-07-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-040",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-14",
+          "known_at": "2026-07-14",
+          "promised_at": "2026-07-21",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-17",
+          "known_at": "2026-07-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-18",
+          "known_at": "2026-07-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-041",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-14",
+          "known_at": "2026-07-14",
+          "promised_at": "2026-07-21",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-18",
+          "known_at": "2026-07-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-19",
+          "known_at": "2026-07-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-042",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-15",
+          "known_at": "2026-07-15",
+          "promised_at": "2026-07-22",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-07-27",
+          "at": "2026-07-21",
+          "known_at": "2026-07-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-20",
+          "known_at": "2026-07-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-21",
+          "known_at": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-043",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-15",
+          "known_at": "2026-07-15",
+          "promised_at": "2026-07-22",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-21",
+          "known_at": "2026-07-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-22",
+          "known_at": "2026-07-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-044",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-15",
+          "known_at": "2026-07-15",
+          "promised_at": "2026-07-22",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-22",
+          "known_at": "2026-07-23"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-23",
+          "known_at": "2026-07-24"
+        }
+      ]
+    },
+    {
+      "order_id": "order-045",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-16",
+          "known_at": "2026-07-16",
+          "promised_at": "2026-07-23",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-19",
+          "known_at": "2026-07-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-20",
+          "known_at": "2026-07-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-046",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-16",
+          "known_at": "2026-07-16",
+          "promised_at": "2026-07-23",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-20",
+          "known_at": "2026-07-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-21",
+          "known_at": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-047",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-16",
+          "known_at": "2026-07-16",
+          "promised_at": "2026-07-23",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-21",
+          "known_at": "2026-07-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-22",
+          "known_at": "2026-07-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-048",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-17",
+          "known_at": "2026-07-17",
+          "promised_at": "2026-07-24",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-07-29",
+          "at": "2026-07-23",
+          "known_at": "2026-07-23"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-23",
+          "known_at": "2026-07-24"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-24",
+          "known_at": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "order_id": "order-049",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-17",
+          "known_at": "2026-07-17",
+          "promised_at": "2026-07-24",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-24",
+          "known_at": "2026-07-25"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-25",
+          "known_at": "2026-07-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-050",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-17",
+          "known_at": "2026-07-17",
+          "promised_at": "2026-07-24",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-20",
+          "known_at": "2026-07-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-21",
+          "known_at": "2026-07-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-051",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-18",
+          "known_at": "2026-07-18",
+          "promised_at": "2026-07-25",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-30",
+          "known_at": "2026-07-31"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "order_id": "order-052",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-18",
+          "known_at": "2026-07-18",
+          "promised_at": "2026-07-25",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-01",
+          "known_at": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "order_id": "order-053",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-18",
+          "known_at": "2026-07-18",
+          "promised_at": "2026-07-25",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-24",
+          "known_at": "2026-07-25"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-25",
+          "known_at": "2026-07-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-054",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-19",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-19",
+          "known_at": "2026-07-19",
+          "promised_at": "2026-07-26",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-07-31",
+          "at": "2026-07-25",
+          "known_at": "2026-07-25"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-04",
+          "known_at": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-055",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-19",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-19",
+          "known_at": "2026-07-19",
+          "promised_at": "2026-07-26",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-30",
+          "known_at": "2026-07-31"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "order_id": "order-056",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-19",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-19",
+          "known_at": "2026-07-19",
+          "promised_at": "2026-07-26",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-23",
+          "known_at": "2026-07-24"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-24",
+          "known_at": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "order_id": "order-057",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-20",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-20",
+          "known_at": "2026-07-20",
+          "promised_at": "2026-07-27",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-07-26",
+          "known_at": "2026-07-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-058",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-20",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-20",
+          "known_at": "2026-07-20",
+          "promised_at": "2026-07-27",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-04",
+          "known_at": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-059",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-20",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-20",
+          "known_at": "2026-07-20",
+          "promised_at": "2026-07-27",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-27",
+          "known_at": "2026-07-28"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-28",
+          "known_at": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "order_id": "order-060",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-21",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-21",
+          "known_at": "2026-07-21",
+          "promised_at": "2026-07-28",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-02",
+          "at": "2026-07-27",
+          "known_at": "2026-07-27"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-24",
+          "known_at": "2026-07-25"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-25",
+          "known_at": "2026-07-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-061",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-21",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-21",
+          "known_at": "2026-07-21",
+          "promised_at": "2026-07-28",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-25",
+          "known_at": "2026-07-26"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-26",
+          "known_at": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "order_id": "order-062",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-21",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-21",
+          "known_at": "2026-07-21",
+          "promised_at": "2026-07-28",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-26",
+          "known_at": "2026-07-27"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-27",
+          "known_at": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "order_id": "order-063",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-22",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-22",
+          "known_at": "2026-07-22",
+          "promised_at": "2026-07-29",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-28",
+          "known_at": "2026-07-29"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-29",
+          "known_at": "2026-07-30"
+        }
+      ]
+    },
+    {
+      "order_id": "order-064",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-22",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-22",
+          "known_at": "2026-07-22",
+          "promised_at": "2026-07-29",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-29",
+          "known_at": "2026-07-30"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-30",
+          "known_at": "2026-07-31"
+        }
+      ]
+    },
+    {
+      "order_id": "order-065",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-22",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-22",
+          "known_at": "2026-07-22",
+          "promised_at": "2026-07-29",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-25",
+          "known_at": "2026-07-26"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-26",
+          "known_at": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "order_id": "order-066",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-23",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-23",
+          "known_at": "2026-07-23",
+          "promised_at": "2026-07-30",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-08-04",
+          "at": "2026-07-29",
+          "known_at": "2026-07-29"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-27",
+          "known_at": "2026-07-28"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-28",
+          "known_at": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "order_id": "order-067",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-23",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-23",
+          "known_at": "2026-07-23",
+          "promised_at": "2026-07-30",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-28",
+          "known_at": "2026-07-29"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-29",
+          "known_at": "2026-07-30"
+        }
+      ]
+    },
+    {
+      "order_id": "order-068",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-23",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-23",
+          "known_at": "2026-07-23",
+          "promised_at": "2026-07-30",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-29",
+          "known_at": "2026-07-30"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-30",
+          "known_at": "2026-07-31"
+        }
+      ]
+    },
+    {
+      "order_id": "order-069",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-24",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-24",
+          "known_at": "2026-07-24",
+          "promised_at": "2026-07-31",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-01",
+          "known_at": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "order_id": "order-070",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-24",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-24",
+          "known_at": "2026-07-24",
+          "promised_at": "2026-07-31",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-27",
+          "known_at": "2026-07-28"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-28",
+          "known_at": "2026-07-29"
+        }
+      ]
+    },
+    {
+      "order_id": "order-071",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-24",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-24",
+          "known_at": "2026-07-24",
+          "promised_at": "2026-07-31",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-28",
+          "known_at": "2026-07-29"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-29",
+          "known_at": "2026-07-30"
+        }
+      ]
+    },
+    {
+      "order_id": "order-072",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-25",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-25",
+          "known_at": "2026-07-25",
+          "promised_at": "2026-08-01",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-06",
+          "at": "2026-07-31",
+          "known_at": "2026-07-31"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-30",
+          "known_at": "2026-07-31"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "order_id": "order-073",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-25",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-25",
+          "known_at": "2026-07-25",
+          "promised_at": "2026-08-01",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-01",
+          "known_at": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "order_id": "order-074",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-25",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-25",
+          "known_at": "2026-07-25",
+          "promised_at": "2026-08-01",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-01",
+          "known_at": "2026-08-02"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-02",
+          "known_at": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "order_id": "order-075",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-26",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-26",
+          "known_at": "2026-07-26",
+          "promised_at": "2026-08-02",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-29",
+          "known_at": "2026-07-30"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-30",
+          "known_at": "2026-07-31"
+        }
+      ]
+    },
+    {
+      "order_id": "order-076",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-26",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-26",
+          "known_at": "2026-07-26",
+          "promised_at": "2026-08-02",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-08-01",
+          "known_at": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "order_id": "order-077",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-26",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-26",
+          "known_at": "2026-07-26",
+          "promised_at": "2026-08-02",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-01",
+          "known_at": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "order_id": "order-078",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-27",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-27",
+          "known_at": "2026-07-27",
+          "promised_at": "2026-08-03",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-08-08",
+          "at": "2026-08-02",
+          "known_at": "2026-08-02"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-02",
+          "known_at": "2026-08-03"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "order_id": "order-079",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-27",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-27",
+          "known_at": "2026-07-27",
+          "promised_at": "2026-08-03",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-04",
+          "known_at": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-080",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-27",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-27",
+          "known_at": "2026-07-27",
+          "promised_at": "2026-08-03",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-07-30",
+          "known_at": "2026-07-31"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-07-31",
+          "known_at": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "order_id": "order-081",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-28",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-28",
+          "known_at": "2026-07-28",
+          "promised_at": "2026-08-04",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-01",
+          "known_at": "2026-08-02"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-02",
+          "known_at": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "order_id": "order-082",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-28",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-28",
+          "known_at": "2026-07-28",
+          "promised_at": "2026-08-04",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-02",
+          "known_at": "2026-08-03"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "order_id": "order-083",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-28",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-28",
+          "known_at": "2026-07-28",
+          "promised_at": "2026-08-04",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-04",
+          "known_at": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-084",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-29",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-29",
+          "known_at": "2026-07-29",
+          "promised_at": "2026-08-05",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-10",
+          "at": "2026-08-04",
+          "known_at": "2026-08-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-05",
+          "known_at": "2026-08-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-06",
+          "known_at": "2026-08-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-085",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-29",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-29",
+          "known_at": "2026-07-29",
+          "promised_at": "2026-08-05",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-01",
+          "known_at": "2026-08-02"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-02",
+          "known_at": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "order_id": "order-086",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-29",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-29",
+          "known_at": "2026-07-29",
+          "promised_at": "2026-08-05",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-02",
+          "known_at": "2026-08-03"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "order_id": "order-087",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-30",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-30",
+          "known_at": "2026-07-30",
+          "promised_at": "2026-08-06",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-04",
+          "known_at": "2026-08-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-05",
+          "known_at": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "order_id": "order-088",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-07-30",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-30",
+          "known_at": "2026-07-30",
+          "promised_at": "2026-08-06",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-05",
+          "known_at": "2026-08-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-06",
+          "known_at": "2026-08-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-089",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-07-30",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-30",
+          "known_at": "2026-07-30",
+          "promised_at": "2026-08-06",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-06",
+          "known_at": "2026-08-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-07",
+          "known_at": "2026-08-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-090",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-31",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-31",
+          "known_at": "2026-07-31",
+          "promised_at": "2026-08-07",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-08-12",
+          "at": "2026-08-06",
+          "known_at": "2026-08-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-03",
+          "known_at": "2026-08-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-04",
+          "known_at": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-091",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-07-31",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-31",
+          "known_at": "2026-07-31",
+          "promised_at": "2026-08-07",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-04",
+          "known_at": "2026-08-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-05",
+          "known_at": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "order_id": "order-092",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-07-31",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-07-31",
+          "known_at": "2026-07-31",
+          "promised_at": "2026-08-07",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-05",
+          "known_at": "2026-08-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-06",
+          "known_at": "2026-08-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-093",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-01",
+          "known_at": "2026-08-01",
+          "promised_at": "2026-08-08",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-07",
+          "known_at": "2026-08-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-08",
+          "known_at": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-094",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-01",
+          "known_at": "2026-08-01",
+          "promised_at": "2026-08-08",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-08",
+          "known_at": "2026-08-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-09",
+          "known_at": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "order_id": "order-095",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-01",
+          "known_at": "2026-08-01",
+          "promised_at": "2026-08-08",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-08-07",
+          "known_at": "2026-08-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-096",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-02",
+          "known_at": "2026-08-02",
+          "promised_at": "2026-08-09",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-14",
+          "at": "2026-08-08",
+          "known_at": "2026-08-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-06",
+          "known_at": "2026-08-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-07",
+          "known_at": "2026-08-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-097",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-02",
+          "known_at": "2026-08-02",
+          "promised_at": "2026-08-09",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-07",
+          "known_at": "2026-08-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-08",
+          "known_at": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-098",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-02",
+          "known_at": "2026-08-02",
+          "promised_at": "2026-08-09",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-08",
+          "known_at": "2026-08-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-09",
+          "known_at": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "order_id": "order-099",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-03",
+          "known_at": "2026-08-03",
+          "promised_at": "2026-08-10",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-10",
+          "known_at": "2026-08-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-11",
+          "known_at": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "order_id": "order-100",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-03",
+          "known_at": "2026-08-03",
+          "promised_at": "2026-08-10",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-06",
+          "known_at": "2026-08-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-07",
+          "known_at": "2026-08-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-101",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-03",
+          "known_at": "2026-08-03",
+          "promised_at": "2026-08-10",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-07",
+          "known_at": "2026-08-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-08",
+          "known_at": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-102",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-04",
+          "known_at": "2026-08-04",
+          "promised_at": "2026-08-11",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-08-16",
+          "at": "2026-08-10",
+          "known_at": "2026-08-10"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-103",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-04",
+          "known_at": "2026-08-04",
+          "promised_at": "2026-08-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-19",
+          "known_at": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-104",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-08-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-04",
+          "known_at": "2026-08-04",
+          "promised_at": "2026-08-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-11",
+          "known_at": "2026-08-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-12",
+          "known_at": "2026-08-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-105",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-05",
+          "known_at": "2026-08-05",
+          "promised_at": "2026-08-12",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-16",
+          "known_at": "2026-08-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-106",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-05",
+          "known_at": "2026-08-05",
+          "promised_at": "2026-08-12",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-107",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-05",
+          "known_at": "2026-08-05",
+          "promised_at": "2026-08-12",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-10",
+          "known_at": "2026-08-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-11",
+          "known_at": "2026-08-12"
+        }
+      ]
+    },
+    {
+      "order_id": "order-108",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-06",
+          "known_at": "2026-08-06",
+          "promised_at": "2026-08-13",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-18",
+          "at": "2026-08-12",
+          "known_at": "2026-08-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-20",
+          "known_at": "2026-08-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-21",
+          "known_at": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-109",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-06",
+          "known_at": "2026-08-06",
+          "promised_at": "2026-08-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-21",
+          "known_at": "2026-08-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-22",
+          "known_at": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-110",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-06",
+          "known_at": "2026-08-06",
+          "promised_at": "2026-08-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-09",
+          "known_at": "2026-08-10"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-10",
+          "known_at": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "order_id": "order-111",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-07",
+          "known_at": "2026-08-07",
+          "promised_at": "2026-08-14",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-11",
+          "known_at": "2026-08-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-12",
+          "known_at": "2026-08-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-112",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-07",
+          "known_at": "2026-08-07",
+          "promised_at": "2026-08-14",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-12",
+          "known_at": "2026-08-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-13",
+          "known_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-113",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-07",
+          "known_at": "2026-08-07",
+          "promised_at": "2026-08-14",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-13",
+          "known_at": "2026-08-14"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-14",
+          "known_at": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "order_id": "order-114",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-08",
+          "known_at": "2026-08-08",
+          "promised_at": "2026-08-15",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-08-20",
+          "at": "2026-08-14",
+          "known_at": "2026-08-14"
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-08-14",
+          "known_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-115",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-08",
+          "known_at": "2026-08-08",
+          "promised_at": "2026-08-15",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-11",
+          "known_at": "2026-08-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-12",
+          "known_at": "2026-08-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-116",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-08-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-08",
+          "known_at": "2026-08-08",
+          "promised_at": "2026-08-15",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-12",
+          "known_at": "2026-08-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-13",
+          "known_at": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-117",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-09",
+          "known_at": "2026-08-09",
+          "promised_at": "2026-08-16",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-14",
+          "known_at": "2026-08-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-15",
+          "known_at": "2026-08-16"
+        }
+      ]
+    },
+    {
+      "order_id": "order-118",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-09",
+          "known_at": "2026-08-09",
+          "promised_at": "2026-08-16",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-15",
+          "known_at": "2026-08-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-16",
+          "known_at": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-119",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-09",
+          "known_at": "2026-08-09",
+          "promised_at": "2026-08-16",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-16",
+          "known_at": "2026-08-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-120",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-10",
+          "known_at": "2026-08-10",
+          "promised_at": "2026-08-17",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-22",
+          "at": "2026-08-16",
+          "known_at": "2026-08-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-13",
+          "known_at": "2026-08-14"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-14",
+          "known_at": "2026-08-15"
+        }
+      ]
+    },
+    {
+      "order_id": "order-121",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-10",
+          "known_at": "2026-08-10",
+          "promised_at": "2026-08-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-14",
+          "known_at": "2026-08-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-15",
+          "known_at": "2026-08-16"
+        }
+      ]
+    },
+    {
+      "order_id": "order-122",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-10",
+          "known_at": "2026-08-10",
+          "promised_at": "2026-08-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-15",
+          "known_at": "2026-08-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-16",
+          "known_at": "2026-08-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-123",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-11",
+          "known_at": "2026-08-11",
+          "promised_at": "2026-08-18",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-124",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-11",
+          "known_at": "2026-08-11",
+          "promised_at": "2026-08-18",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-19",
+          "known_at": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-125",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-11",
+          "known_at": "2026-08-11",
+          "promised_at": "2026-08-18",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-14",
+          "known_at": "2026-08-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-15",
+          "known_at": "2026-08-16"
+        }
+      ]
+    },
+    {
+      "order_id": "order-126",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-12",
+          "known_at": "2026-08-12",
+          "promised_at": "2026-08-19",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-08-24",
+          "at": "2026-08-18",
+          "known_at": "2026-08-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-16",
+          "known_at": "2026-08-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-127",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-12",
+          "known_at": "2026-08-12",
+          "promised_at": "2026-08-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-128",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-08-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-12",
+          "known_at": "2026-08-12",
+          "promised_at": "2026-08-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-19",
+          "known_at": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-129",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-13",
+          "known_at": "2026-08-13",
+          "promised_at": "2026-08-20",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-20",
+          "known_at": "2026-08-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-21",
+          "known_at": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-130",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-13",
+          "known_at": "2026-08-13",
+          "promised_at": "2026-08-20",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-16",
+          "known_at": "2026-08-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-131",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-13",
+          "known_at": "2026-08-13",
+          "promised_at": "2026-08-20",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-17",
+          "known_at": "2026-08-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-132",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-14",
+          "known_at": "2026-08-14",
+          "promised_at": "2026-08-21",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-26",
+          "at": "2026-08-20",
+          "known_at": "2026-08-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-19",
+          "known_at": "2026-08-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-20",
+          "known_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-133",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-14",
+          "known_at": "2026-08-14",
+          "promised_at": "2026-08-21",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-08-20",
+          "known_at": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-134",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-14",
+          "known_at": "2026-08-14",
+          "promised_at": "2026-08-21",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-21",
+          "known_at": "2026-08-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-22",
+          "known_at": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-135",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-15",
+          "known_at": "2026-08-15",
+          "promised_at": "2026-08-22",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-18",
+          "known_at": "2026-08-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-19",
+          "known_at": "2026-08-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-136",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-15",
+          "known_at": "2026-08-15",
+          "promised_at": "2026-08-22",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-19",
+          "known_at": "2026-08-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-20",
+          "known_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-137",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-15",
+          "known_at": "2026-08-15",
+          "promised_at": "2026-08-22",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-20",
+          "known_at": "2026-08-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-21",
+          "known_at": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-138",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-16",
+          "known_at": "2026-08-16",
+          "promised_at": "2026-08-23",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-08-28",
+          "at": "2026-08-22",
+          "known_at": "2026-08-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-22",
+          "known_at": "2026-08-23"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-23",
+          "known_at": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "order_id": "order-139",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-16",
+          "known_at": "2026-08-16",
+          "promised_at": "2026-08-23",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-23",
+          "known_at": "2026-08-24"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-24",
+          "known_at": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "order_id": "order-140",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-08-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-16",
+          "known_at": "2026-08-16",
+          "promised_at": "2026-08-23",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-19",
+          "known_at": "2026-08-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-20",
+          "known_at": "2026-08-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-141",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-17",
+          "known_at": "2026-08-17",
+          "promised_at": "2026-08-24",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-21",
+          "known_at": "2026-08-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-22",
+          "known_at": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-142",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-17",
+          "known_at": "2026-08-17",
+          "promised_at": "2026-08-24",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-22",
+          "known_at": "2026-08-23"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-23",
+          "known_at": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "order_id": "order-143",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-17",
+          "known_at": "2026-08-17",
+          "promised_at": "2026-08-24",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-23",
+          "known_at": "2026-08-24"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-24",
+          "known_at": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "order_id": "order-144",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-18",
+          "known_at": "2026-08-18",
+          "promised_at": "2026-08-25",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-08-30",
+          "at": "2026-08-24",
+          "known_at": "2026-08-24"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-25",
+          "known_at": "2026-08-26"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-26",
+          "known_at": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "order_id": "order-145",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-18",
+          "known_at": "2026-08-18",
+          "promised_at": "2026-08-25",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-21",
+          "known_at": "2026-08-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-22",
+          "known_at": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-146",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-18",
+          "known_at": "2026-08-18",
+          "promised_at": "2026-08-25",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-22",
+          "known_at": "2026-08-23"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-23",
+          "known_at": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "order_id": "order-147",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-19",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-19",
+          "known_at": "2026-08-19",
+          "promised_at": "2026-08-26",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-24",
+          "known_at": "2026-08-25"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-25",
+          "known_at": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-148",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-19",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-19",
+          "known_at": "2026-08-19",
+          "promised_at": "2026-08-26",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-25",
+          "known_at": "2026-08-26"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-26",
+          "known_at": "2026-08-27"
+        }
+      ]
+    },
+    {
+      "order_id": "order-149",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-19",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-19",
+          "known_at": "2026-08-19",
+          "promised_at": "2026-08-26",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-26",
+          "known_at": "2026-08-27"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-27",
+          "known_at": "2026-08-28"
+        }
+      ]
+    },
+    {
+      "order_id": "order-150",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-20",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-20",
+          "known_at": "2026-08-20",
+          "promised_at": "2026-08-27",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-01",
+          "at": "2026-08-26",
+          "known_at": "2026-08-26"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-23",
+          "known_at": "2026-08-24"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-24",
+          "known_at": "2026-08-25"
+        }
+      ]
+    },
+    {
+      "order_id": "order-151",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-20",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-20",
+          "known_at": "2026-08-20",
+          "promised_at": "2026-08-27",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-24",
+          "known_at": "2026-08-25"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-25",
+          "known_at": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-152",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-08-20",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-20",
+          "known_at": "2026-08-20",
+          "promised_at": "2026-08-27",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-08-26",
+          "known_at": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-153",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-21",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-21",
+          "known_at": "2026-08-21",
+          "promised_at": "2026-08-28",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "order_id": "order-154",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-21",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-21",
+          "known_at": "2026-08-21",
+          "promised_at": "2026-08-28",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-06",
+          "known_at": "2026-09-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-155",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-21",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-21",
+          "known_at": "2026-08-21",
+          "promised_at": "2026-08-28",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-24",
+          "known_at": "2026-08-25"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-25",
+          "known_at": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "order_id": "order-156",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-22",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-22",
+          "known_at": "2026-08-22",
+          "promised_at": "2026-08-29",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-09-03",
+          "at": "2026-08-28",
+          "known_at": "2026-08-28"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-157",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-22",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-22",
+          "known_at": "2026-08-22",
+          "promised_at": "2026-08-29",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "order_id": "order-158",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-22",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-22",
+          "known_at": "2026-08-22",
+          "promised_at": "2026-08-29",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-28",
+          "known_at": "2026-08-29"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-29",
+          "known_at": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "order_id": "order-159",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-23",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-23",
+          "known_at": "2026-08-23",
+          "promised_at": "2026-08-30",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-07",
+          "known_at": "2026-09-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-08",
+          "known_at": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-160",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-23",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-23",
+          "known_at": "2026-08-23",
+          "promised_at": "2026-08-30",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-161",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-23",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-23",
+          "known_at": "2026-08-23",
+          "promised_at": "2026-08-30",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-27",
+          "known_at": "2026-08-28"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-28",
+          "known_at": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "order_id": "order-162",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-24",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-24",
+          "known_at": "2026-08-24",
+          "promised_at": "2026-08-31",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-05",
+          "at": "2026-08-30",
+          "known_at": "2026-08-30"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-29",
+          "known_at": "2026-08-30"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-30",
+          "known_at": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "order_id": "order-163",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-24",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-24",
+          "known_at": "2026-08-24",
+          "promised_at": "2026-08-31",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-30",
+          "known_at": "2026-08-31"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-31",
+          "known_at": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "order_id": "order-164",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-08-24",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-24",
+          "known_at": "2026-08-24",
+          "promised_at": "2026-08-31",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-31",
+          "known_at": "2026-09-01"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-01",
+          "known_at": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "order_id": "order-165",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-25",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-25",
+          "known_at": "2026-08-25",
+          "promised_at": "2026-09-01",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-28",
+          "known_at": "2026-08-29"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-29",
+          "known_at": "2026-08-30"
+        }
+      ]
+    },
+    {
+      "order_id": "order-166",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-25",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-25",
+          "known_at": "2026-08-25",
+          "promised_at": "2026-09-01",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-29",
+          "known_at": "2026-08-30"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-30",
+          "known_at": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "order_id": "order-167",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-25",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-25",
+          "known_at": "2026-08-25",
+          "promised_at": "2026-09-01",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-30",
+          "known_at": "2026-08-31"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-31",
+          "known_at": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "order_id": "order-168",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-26",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-26",
+          "known_at": "2026-08-26",
+          "promised_at": "2026-09-02",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-09-07",
+          "at": "2026-09-01",
+          "known_at": "2026-09-01"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-01",
+          "known_at": "2026-09-02"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-02",
+          "known_at": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "order_id": "order-169",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-26",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-26",
+          "known_at": "2026-08-26",
+          "promised_at": "2026-09-02",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-02",
+          "known_at": "2026-09-03"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "order_id": "order-170",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-26",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-26",
+          "known_at": "2026-08-26",
+          "promised_at": "2026-09-02",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-29",
+          "known_at": "2026-08-30"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-08-30",
+          "known_at": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "order_id": "order-171",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-27",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-27",
+          "known_at": "2026-08-27",
+          "promised_at": "2026-09-03",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-09-02",
+          "known_at": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "order_id": "order-172",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-27",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-27",
+          "known_at": "2026-08-27",
+          "promised_at": "2026-09-03",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-01",
+          "known_at": "2026-09-02"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-02",
+          "known_at": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "order_id": "order-173",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-27",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-27",
+          "known_at": "2026-08-27",
+          "promised_at": "2026-09-03",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-02",
+          "known_at": "2026-09-03"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "order_id": "order-174",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-28",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-28",
+          "known_at": "2026-08-28",
+          "promised_at": "2026-09-04",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-09",
+          "at": "2026-09-03",
+          "known_at": "2026-09-03"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "order_id": "order-175",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-28",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-28",
+          "known_at": "2026-08-28",
+          "promised_at": "2026-09-04",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-08-31",
+          "known_at": "2026-09-01"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-01",
+          "known_at": "2026-09-02"
+        }
+      ]
+    },
+    {
+      "order_id": "order-176",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-08-28",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-28",
+          "known_at": "2026-08-28",
+          "promised_at": "2026-09-04",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-01",
+          "known_at": "2026-09-02"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-02",
+          "known_at": "2026-09-03"
+        }
+      ]
+    },
+    {
+      "order_id": "order-177",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-29",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-29",
+          "known_at": "2026-08-29",
+          "promised_at": "2026-09-05",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-178",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-29",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-29",
+          "known_at": "2026-08-29",
+          "promised_at": "2026-09-05",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "order_id": "order-179",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-29",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-29",
+          "known_at": "2026-08-29",
+          "promised_at": "2026-09-05",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-06",
+          "known_at": "2026-09-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-180",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-30",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-30",
+          "known_at": "2026-08-30",
+          "promised_at": "2026-09-06",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-09-11",
+          "at": "2026-09-05",
+          "known_at": "2026-09-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-02",
+          "known_at": "2026-09-03"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "order_id": "order-181",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-30",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-30",
+          "known_at": "2026-08-30",
+          "promised_at": "2026-09-06",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-182",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-30",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-30",
+          "known_at": "2026-08-30",
+          "promised_at": "2026-09-06",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        }
+      ]
+    },
+    {
+      "order_id": "order-183",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-08-31",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-31",
+          "known_at": "2026-08-31",
+          "promised_at": "2026-09-07",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-06",
+          "known_at": "2026-09-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-07",
+          "known_at": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-184",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-08-31",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-31",
+          "known_at": "2026-08-31",
+          "promised_at": "2026-09-07",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-07",
+          "known_at": "2026-09-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-08",
+          "known_at": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-185",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-08-31",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-08-31",
+          "known_at": "2026-08-31",
+          "promised_at": "2026-09-07",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-03",
+          "known_at": "2026-09-04"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-04",
+          "known_at": "2026-09-05"
+        }
+      ]
+    },
+    {
+      "order_id": "order-186",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-01",
+          "known_at": "2026-09-01",
+          "promised_at": "2026-09-08",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-13",
+          "at": "2026-09-07",
+          "known_at": "2026-09-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-05",
+          "known_at": "2026-09-06"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-06",
+          "known_at": "2026-09-07"
+        }
+      ]
+    },
+    {
+      "order_id": "order-187",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-01",
+          "known_at": "2026-09-01",
+          "promised_at": "2026-09-08",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-06",
+          "known_at": "2026-09-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-07",
+          "known_at": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-188",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-09-01",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-01",
+          "known_at": "2026-09-01",
+          "promised_at": "2026-09-08",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-07",
+          "known_at": "2026-09-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-08",
+          "known_at": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-189",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-02",
+          "known_at": "2026-09-02",
+          "promised_at": "2026-09-09",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-09",
+          "known_at": "2026-09-10"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-10",
+          "known_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "order_id": "order-190",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-02",
+          "known_at": "2026-09-02",
+          "promised_at": "2026-09-09",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-09-08",
+          "known_at": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-191",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-02",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-02",
+          "known_at": "2026-09-02",
+          "promised_at": "2026-09-09",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-06",
+          "known_at": "2026-09-07"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-07",
+          "known_at": "2026-09-08"
+        }
+      ]
+    },
+    {
+      "order_id": "order-192",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-03",
+          "known_at": "2026-09-03",
+          "promised_at": "2026-09-10",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-09-15",
+          "at": "2026-09-09",
+          "known_at": "2026-09-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-08",
+          "known_at": "2026-09-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-09",
+          "known_at": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "order_id": "order-193",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-03",
+          "known_at": "2026-09-03",
+          "promised_at": "2026-09-10",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-09",
+          "known_at": "2026-09-10"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-10",
+          "known_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "order_id": "order-194",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-03",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-03",
+          "known_at": "2026-09-03",
+          "promised_at": "2026-09-10",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-10",
+          "known_at": "2026-09-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-11",
+          "known_at": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "order_id": "order-195",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-04",
+          "known_at": "2026-09-04",
+          "promised_at": "2026-09-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-07",
+          "known_at": "2026-09-08"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-08",
+          "known_at": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "order_id": "order-196",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-04",
+          "known_at": "2026-09-04",
+          "promised_at": "2026-09-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-08",
+          "known_at": "2026-09-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-09",
+          "known_at": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "order_id": "order-197",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-04",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-04",
+          "known_at": "2026-09-04",
+          "promised_at": "2026-09-11",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-09",
+          "known_at": "2026-09-10"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-10",
+          "known_at": "2026-09-11"
+        }
+      ]
+    },
+    {
+      "order_id": "order-198",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-05",
+          "known_at": "2026-09-05",
+          "promised_at": "2026-09-12",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-17",
+          "at": "2026-09-11",
+          "known_at": "2026-09-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-11",
+          "known_at": "2026-09-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-12",
+          "known_at": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-199",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-05",
+          "known_at": "2026-09-05",
+          "promised_at": "2026-09-12",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-12",
+          "known_at": "2026-09-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-13",
+          "known_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-200",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-09-05",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-05",
+          "known_at": "2026-09-05",
+          "promised_at": "2026-09-12",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-08",
+          "known_at": "2026-09-09"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-09",
+          "known_at": "2026-09-10"
+        }
+      ]
+    },
+    {
+      "order_id": "order-201",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-06",
+          "known_at": "2026-09-06",
+          "promised_at": "2026-09-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-10",
+          "known_at": "2026-09-11"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-11",
+          "known_at": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "order_id": "order-202",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-06",
+          "known_at": "2026-09-06",
+          "promised_at": "2026-09-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-11",
+          "known_at": "2026-09-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-12",
+          "known_at": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-203",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-06",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-06",
+          "known_at": "2026-09-06",
+          "promised_at": "2026-09-13",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-12",
+          "known_at": "2026-09-13"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-13",
+          "known_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-204",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-07",
+          "known_at": "2026-09-07",
+          "promised_at": "2026-09-14",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-09-19",
+          "at": "2026-09-13",
+          "known_at": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-205",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-07",
+          "known_at": "2026-09-07",
+          "promised_at": "2026-09-14",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-18",
+          "known_at": "2026-09-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-19",
+          "known_at": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-206",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-07",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-07",
+          "known_at": "2026-09-07",
+          "promised_at": "2026-09-14",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-11",
+          "known_at": "2026-09-12"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-12",
+          "known_at": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "order_id": "order-207",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-08",
+          "known_at": "2026-09-08",
+          "promised_at": "2026-09-15",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-22",
+          "known_at": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-208",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-08",
+          "known_at": "2026-09-08",
+          "promised_at": "2026-09-15",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "order_id": "order-209",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-08",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-08",
+          "known_at": "2026-09-08",
+          "promised_at": "2026-09-15",
+          "quantity": 40
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-09-14",
+          "known_at": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "order_id": "order-210",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-09",
+          "known_at": "2026-09-09",
+          "promised_at": "2026-09-16",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-21",
+          "at": "2026-09-15",
+          "known_at": "2026-09-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-20",
+          "known_at": "2026-09-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-211",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-09",
+          "known_at": "2026-09-09",
+          "promised_at": "2026-09-16",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-22",
+          "known_at": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-212",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-09-09",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-09",
+          "known_at": "2026-09-09",
+          "promised_at": "2026-09-16",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-14",
+          "known_at": "2026-09-15"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-15",
+          "known_at": "2026-09-16"
+        }
+      ]
+    },
+    {
+      "order_id": "order-213",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-10",
+          "known_at": "2026-09-10",
+          "promised_at": "2026-09-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-16",
+          "known_at": "2026-09-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-17",
+          "known_at": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-214",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-10",
+          "known_at": "2026-09-10",
+          "promised_at": "2026-09-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-17",
+          "known_at": "2026-09-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-18",
+          "known_at": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-215",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-10",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-10",
+          "known_at": "2026-09-10",
+          "promised_at": "2026-09-17",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-13",
+          "known_at": "2026-09-14"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-14",
+          "known_at": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "order_id": "order-216",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-11",
+          "known_at": "2026-09-11",
+          "promised_at": "2026-09-18",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-09-23",
+          "at": "2026-09-17",
+          "known_at": "2026-09-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-15",
+          "known_at": "2026-09-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-16",
+          "known_at": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-217",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-11",
+          "known_at": "2026-09-11",
+          "promised_at": "2026-09-18",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-16",
+          "known_at": "2026-09-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-17",
+          "known_at": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-218",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-11",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-11",
+          "known_at": "2026-09-11",
+          "promised_at": "2026-09-18",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-17",
+          "known_at": "2026-09-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-18",
+          "known_at": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-219",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-12",
+          "known_at": "2026-09-12",
+          "promised_at": "2026-09-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-19",
+          "known_at": "2026-09-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-20",
+          "known_at": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-220",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-12",
+          "known_at": "2026-09-12",
+          "promised_at": "2026-09-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-15",
+          "known_at": "2026-09-16"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-16",
+          "known_at": "2026-09-17"
+        }
+      ]
+    },
+    {
+      "order_id": "order-221",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-12",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-12",
+          "known_at": "2026-09-12",
+          "promised_at": "2026-09-19",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-16",
+          "known_at": "2026-09-17"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-17",
+          "known_at": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "order_id": "order-222",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-13",
+          "known_at": "2026-09-13",
+          "promised_at": "2026-09-20",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-25",
+          "at": "2026-09-19",
+          "known_at": "2026-09-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-18",
+          "known_at": "2026-09-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-19",
+          "known_at": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-223",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-13",
+          "known_at": "2026-09-13",
+          "promised_at": "2026-09-20",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-19",
+          "known_at": "2026-09-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-20",
+          "known_at": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-224",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-09-13",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-13",
+          "known_at": "2026-09-13",
+          "promised_at": "2026-09-20",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-20",
+          "known_at": "2026-09-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-225",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-14",
+          "known_at": "2026-09-14",
+          "promised_at": "2026-09-21",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-17",
+          "known_at": "2026-09-18"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-18",
+          "known_at": "2026-09-19"
+        }
+      ]
+    },
+    {
+      "order_id": "order-226",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-14",
+          "known_at": "2026-09-14",
+          "promised_at": "2026-09-21",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-18",
+          "known_at": "2026-09-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-19",
+          "known_at": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-227",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-14",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-14",
+          "known_at": "2026-09-14",
+          "promised_at": "2026-09-21",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-19",
+          "known_at": "2026-09-20"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-20",
+          "known_at": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-228",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-15",
+          "known_at": "2026-09-15",
+          "promised_at": "2026-09-22",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": true,
+          "promised_at": "2026-09-27",
+          "at": "2026-09-21",
+          "known_at": "2026-09-21"
+        },
+        {
+          "kind": "terminated",
+          "at": "2026-09-21",
+          "known_at": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "order_id": "order-229",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-15",
+          "known_at": "2026-09-15",
+          "promised_at": "2026-09-22",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "order_id": "order-230",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-15",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-15",
+          "known_at": "2026-09-15",
+          "promised_at": "2026-09-22",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-18",
+          "known_at": "2026-09-19"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-19",
+          "known_at": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "order_id": "order-231",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-16",
+          "known_at": "2026-09-16",
+          "promised_at": "2026-09-23",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-20",
+          "known_at": "2026-09-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-232",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "leather",
+      "placed_at": "2026-09-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-16",
+          "known_at": "2026-09-16",
+          "promised_at": "2026-09-23",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-22",
+          "known_at": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-233",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-16",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-16",
+          "known_at": "2026-09-16",
+          "promised_at": "2026-09-23",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "order_id": "order-234",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-17",
+          "known_at": "2026-09-17",
+          "promised_at": "2026-09-24",
+          "quantity": 40
+        },
+        {
+          "kind": "amendment",
+          "accepted": false,
+          "promised_at": "2026-09-29",
+          "at": "2026-09-23",
+          "known_at": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-235",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-17",
+          "known_at": "2026-09-17",
+          "promised_at": "2026-09-24",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-20",
+          "known_at": "2026-09-21"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "order_id": "order-236",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "leather",
+      "placed_at": "2026-09-17",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-17",
+          "known_at": "2026-09-17",
+          "promised_at": "2026-09-24",
+          "quantity": 40
+        },
+        {
+          "kind": "received",
+          "quantity": 15,
+          "at": "2026-09-21",
+          "known_at": "2026-09-22"
+        },
+        {
+          "kind": "received",
+          "quantity": 25,
+          "at": "2026-09-22",
+          "known_at": "2026-09-23"
+        }
+      ]
+    },
+    {
+      "order_id": "order-237",
+      "supplier": "s1",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-18",
+          "known_at": "2026-09-18",
+          "promised_at": "2026-09-25",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "order_id": "order-238",
+      "supplier": "s2",
+      "route": "shared-port",
+      "category": "textile",
+      "placed_at": "2026-09-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-18",
+          "known_at": "2026-09-18",
+          "promised_at": "2026-09-25",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "order_id": "order-239",
+      "supplier": "s3",
+      "route": "land-route",
+      "category": "textile",
+      "placed_at": "2026-09-18",
+      "events": [
+        {
+          "kind": "contract",
+          "at": "2026-09-18",
+          "known_at": "2026-09-18",
+          "promised_at": "2026-09-25",
+          "quantity": 40
+        }
+      ]
+    }
+  ],
+  "validation_origins": [
+    "2026-08-05",
+    "2026-08-19",
+    "2026-09-02"
+  ],
+  "purchase": {
+    "placed_at": "2026-09-23",
+    "deadline": "2026-10-03",
+    "quantity": 80,
+    "category": "textile",
+    "suppliers": [
+      {
+        "id": "s1",
+        "minimum": 20,
+        "capacity": 60,
+        "route": "shared-port"
+      },
+      {
+        "id": "s2",
+        "minimum": 20,
+        "capacity": 60,
+        "route": "shared-port"
+      },
+      {
+        "id": "s3",
+        "minimum": 20,
+        "capacity": 60,
+        "route": "land-route"
+      }
+    ]
+  },
+  "unsupported_purchase": {
+    "category": "new-category",
+    "quantity": 1000
+  }
+}
