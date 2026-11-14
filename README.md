@@ -23,4 +23,14 @@ python3 scripts/check_project.py
 
 `check_project.py` 串行执行测试、编译和真实业务入口，将本次业务输出完整打印到终端；状态文件使用独立临时目录，重复运行不沿用上次状态。
 
+## 交付承诺分析
+
+```bash
+python3 -m b2b_reorder_network.promise_risk fixtures/promise_risk.json --output /tmp/promise-risk
+```
+
 批量分析资料位于 `fixtures/promise_risk.json`，字段含义见 `docs/data.md`。它与当前单笔流程的输入格式不同，不能直接交给原来的入口处理。
+
+该入口只读取资料并输出报告、摘要和 CSV，用来辅助比较整单与拆单，不会写数据库或下单。它回答“采购截止日之前能否交齐所需数量”，并把原承诺与双方接受后的承诺分开核对；未结案保留为未完成观察，终止不算送达；共同线路的联合风险单独建模。方法、假设与保留意见见 `docs/promise_risk.md`。
+
+`check_project.py` 也会运行这个入口并把结果文件检查一遍；原有 `dispatch.cli` 入口与 `fixtures/demo.json` 流程保持不变。
